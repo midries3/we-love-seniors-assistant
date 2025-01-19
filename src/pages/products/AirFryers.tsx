@@ -36,26 +36,27 @@ const AirFryers = () => {
           </div>
 
           <div className="prose prose-lg max-w-none mb-16">
-            <h2 className="text-3xl font-semibold mb-6">Embracing a New Chapter in Kitchen Independence</h2>
+            <h2 className="text-3xl font-semibold mb-6">From Frustration to Freedom: A Kitchen Revolution</h2>
             
             <p className="text-xl text-gray-700 mb-6">
-              Today, Margaret stands in her kitchen with renewed confidence. The heavy pots and pans that once caused 
-              her anxiety are stored away, replaced by her new air fryer that sits proudly on her countertop. The 
-              constant worry about forgetting to turn off the stove has disappeared, thanks to the automatic shut-off 
-              feature that gives her peace of mind.
+              For too many seniors, the kitchen has become a source of anxiety rather than joy. The fear of burns from 
+              hot oil, the struggle with heavy pots and pans, and the constant worry about leaving the stove on have 
+              turned what should be a pleasurable activity into a daily challenge. Many find themselves relying on 
+              unhealthy microwave meals or skipping proper meals altogether, impacting both their physical health and 
+              emotional well-being.
             </p>
 
             <p className="text-xl text-gray-700 mb-6">
-              Her grandchildren now look forward to their visits even more, knowing they'll be greeted by the aroma 
-              of perfectly crispy chicken wings and golden-brown french fries. The joy of cooking has returned, and 
-              with it, a sense of independence that Margaret thought she had lost forever.
+              But imagine a different reality: A kitchen where cooking is once again a source of joy and independence. 
+              Where the aroma of perfectly cooked meals fills the air, and family gatherings are centered around 
+              delicious, home-cooked food. This isn't just a dream – it's the reality that an air fryer can bring 
+              to your life.
             </p>
 
             <p className="text-xl text-gray-700 mb-8">
-              This transformation isn't just about cooking – it's about maintaining dignity, independence, and the 
-              simple pleasures that make a house feel like home. With an air fryer, seniors like Margaret can continue 
-              creating delicious, healthy meals safely and confidently, preserving their autonomy and the joy of 
-              cooking for years to come.
+              With an air fryer, you can rediscover the pleasure of cooking without the worry. No more fear of hot oil 
+              splashes. No more heavy lifting of pots and pans. No more anxiety about forgetting to turn off the stove. 
+              Just simple, safe, and delicious cooking that puts you back in control of your kitchen and your independence.
             </p>
 
             <h2 className="text-3xl font-semibold mb-8">Our Top Recommended Air Fryers for Seniors</h2>
@@ -204,6 +205,29 @@ const AirFryers = () => {
                 </div>
               </Card>
             </div>
+          </div>
+
+          <div className="prose prose-lg max-w-none mb-12">
+            <h2 className="text-3xl font-semibold mb-6">Your Journey to Kitchen Freedom Starts Here</h2>
+            
+            <p className="text-xl text-gray-700 mb-6">
+              Every day we hear from seniors whose lives have been transformed by making the switch to an air fryer. 
+              They tell us about rediscovering their love of cooking, about the pride they feel serving healthy, 
+              home-cooked meals to their families again, and about the confidence they've regained in the kitchen.
+            </p>
+
+            <p className="text-xl text-gray-700 mb-6">
+              Whether you choose the premium features of the Philips XXL, the perfect balance of the Ninja AF101, 
+              or the simplicity of the Dash Compact, you're not just buying an appliance – you're investing in your 
+              independence, safety, and quality of life. Each of these models has been carefully selected to meet the 
+              specific needs of seniors, with features like automatic shut-off, easy-to-read displays, and simple controls.
+            </p>
+
+            <p className="text-xl text-gray-700 mb-6">
+              Don't let the joy of cooking become a thing of the past. With the right air fryer, you can embrace a 
+              future where preparing meals is once again a pleasure, not a challenge. Take the first step toward 
+              reclaiming your kitchen independence today.
+            </p>
           </div>
         </div>
       </main>
