@@ -1,20 +1,9 @@
-import { ProductQuiz } from "@/components/products/ProductQuiz";
 import { Card } from "@/components/ui/card";
 import { ProductFooter } from "@/components/layout/ProductFooter";
 import { Button } from "@/components/ui/button";
-import { useRef } from "react";
 import { Check, Star } from "lucide-react";
-import { useIsMobile } from "@/hooks/use-mobile";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 const AirFryers = () => {
-  const quizRef = useRef<HTMLDivElement>(null);
-  const isMobile = useIsMobile();
-
-  const scrollToQuiz = () => {
-    quizRef.current?.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div className="min-h-screen bg-gray-50">
       <main className="container mx-auto px-4 py-12">
@@ -46,9 +35,33 @@ const AirFryers = () => {
             </p>
           </div>
 
-          <div className="mb-16">
-            <h2 className="text-3xl font-semibold mb-8">Our Top Recommended Air Fryers for Seniors</h2>
+          <div className="prose prose-lg max-w-none mb-16">
+            <h2 className="text-3xl font-semibold mb-6">Embracing a New Chapter in Kitchen Independence</h2>
             
+            <p className="text-xl text-gray-700 mb-6">
+              Today, Margaret stands in her kitchen with renewed confidence. The heavy pots and pans that once caused 
+              her anxiety are stored away, replaced by her new air fryer that sits proudly on her countertop. The 
+              constant worry about forgetting to turn off the stove has disappeared, thanks to the automatic shut-off 
+              feature that gives her peace of mind.
+            </p>
+
+            <p className="text-xl text-gray-700 mb-6">
+              Her grandchildren now look forward to their visits even more, knowing they'll be greeted by the aroma 
+              of perfectly crispy chicken wings and golden-brown french fries. The joy of cooking has returned, and 
+              with it, a sense of independence that Margaret thought she had lost forever.
+            </p>
+
+            <p className="text-xl text-gray-700 mb-8">
+              This transformation isn't just about cooking – it's about maintaining dignity, independence, and the 
+              simple pleasures that make a house feel like home. With an air fryer, seniors like Margaret can continue 
+              creating delicious, healthy meals safely and confidently, preserving their autonomy and the joy of 
+              cooking for years to come.
+            </p>
+
+            <h2 className="text-3xl font-semibold mb-8">Our Top Recommended Air Fryers for Seniors</h2>
+          </div>
+
+          <div className="space-y-8 mb-12">
             <div className="space-y-8">
               {/* Premium Pick */}
               <Card className="p-6 relative overflow-hidden">
@@ -191,26 +204,6 @@ const AirFryers = () => {
                 </div>
               </Card>
             </div>
-          </div>
-
-          <div className="prose prose-lg max-w-none mb-12">
-            <h2 className="text-3xl font-semibold mb-6">Why These Air Fryers Are Perfect for Seniors</h2>
-            
-            <p className="text-xl text-gray-700 mb-6">
-              Each of these carefully selected air fryers addresses the specific needs of seniors. From the premium Philips XXL 
-              with its easy-to-read digital display to the simple, straightforward controls of the Dash Compact, these models 
-              prioritize safety and ease of use while delivering excellent cooking results.
-            </p>
-
-            <p className="text-xl text-gray-700 mb-6">
-              The automatic shut-off features provide peace of mind, while the lightweight designs and easy-clean components make 
-              daily use a breeze. Whether cooking for one or preparing meals for visiting family, these air fryers help seniors 
-              maintain their independence and joy of cooking without compromise.
-            </p>
-          </div>
-
-          <div ref={quizRef} className="mb-12">
-            <ProductQuiz productType="airFryer" />
           </div>
         </div>
       </main>
