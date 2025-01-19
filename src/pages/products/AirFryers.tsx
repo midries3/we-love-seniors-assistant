@@ -211,8 +211,8 @@ const AirFryers = () => {
             <h2 className="text-3xl font-semibold mb-6">Your Journey to Kitchen Freedom Starts Here</h2>
             
             <p className="text-xl text-gray-700 mb-6">
-              Every day we hear from seniors whose lives have been transformed by making the switch to an air fryer. 
-              They tell us about rediscovering their love of cooking, about the pride they feel serving healthy, 
+              Every day senior lives are transformed by making the switch to an air fryer. 
+              They're happy about rediscovering their love of cooking, about the pride they feel serving healthy, 
               home-cooked meals to their families again, and about the confidence they've regained in the kitchen.
             </p>
 
